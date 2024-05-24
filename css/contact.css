@@ -1,0 +1,158 @@
+
+/* Styling for overskrifter med klassenavnet .h4c */
+.h4c {
+    font-family: "League Gothic", sans-serif;
+    color: #fff9fb;
+    text-align: left;
+    font-size: 40px;
+}
+
+.h4c {
+    margin-bottom: -50px; 
+}
+
+/* Styling for afsnit med klassenavnet .pc */
+.pc {
+    margin-top: 60px; /* Adjust as needed */
+    font-family: "League Spartan", sans-serif;
+    color: #fff9fb;
+    font-weight: 100;
+    line-height: 1.5;
+}
+/* Styling for overskrifter med klassenavnet .h2c */
+.h2c {
+    font-family: "League Gothic", sans-serif;
+    color: #fff9fb;
+    text-align: left;
+    font-size: 40px;
+}
+
+/* Kontaktformularens container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    
+}
+/* Styling for kontaktformular */
+.contact-form {
+    background: rgba(255, 255, 255, 0); /* White with transparency */
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding-bottom: 20%;
+    border: 0.1px solid #fff9fb;
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 21px;
+    width: 290px;
+    text-align: center;
+    margin: auto;
+}
+/* Styling for overskrift i kontaktformular */
+.contact-form h2 {
+    font-family: "League Gothic", sans-serif;
+    margin-bottom: 20px;
+    font-size: 54px;
+    color: #ffffff;
+}
+
+/* Styling for inputfelter og tekstområder i kontaktformular */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Styling for knap i kontaktformular */
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e00a4c;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Styling for knap ved hover i kontaktformular */
+
+.contact-form button:hover {
+    background-color: #e00a4e82;
+}
+
+/* Styling for kontaktformular */
+
+#name {
+    background-color: #f0f0f000;
+}
+
+#phone {
+    background-color: #cccccc00;
+}
+
+#email {
+    background-color: #cccccc00;
+}
+
+#message {
+    background-color: #cccccc00;
+}
+
+#text {
+    background-color: #ffffff;
+}
+
+/* Styling for formgruppe i kontaktformular */
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+/* Styling for inputfelter og tekstområder i formgruppe i kontaktformular */
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    color: #ffffff; 
+}
+
+.form-group label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0 5px;
+    transition: 0.3s;
+    pointer-events: none;
+    font-size: 16px;
+    color: #ffffff; /* Label text color */
+}
+
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    opacity: 0; /* Make label disappear only when input has content */
+}

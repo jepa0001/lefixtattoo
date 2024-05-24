@@ -6,6 +6,10 @@ img {
   margin: auto;
 }
 
+/* 
+ha1 h2 h3 h4. Bruger skrifttypen "League Gothic", sætter tekstfarven til en lys hvid/pink nuance, centrerer teksten og giver den en mellemsize skriftstørrelse.
+*/
+
 h1 {
   font-family: "League Gothic", sans-serif;
   color: #fff9fb;
@@ -26,6 +30,14 @@ h3 {
   color: #fff9fb;
   text-align: center;
   font-size: 30px;
+}
+
+
+.h4 {
+  font-family: "League Gothic", sans-serif;
+  color: #fff9fb;
+  text-align: center;
+  font-size: 55px;
 }
 
 p {

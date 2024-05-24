@@ -1,0 +1,294 @@
+
+/* 
+Generel styling for body elementet. Sætter baggrundsfarven til mørk grå.
+*/
+body {
+    background-color: #1a1a1a;
+}
+
+/* 
+Centerer billeder horisontalt ved hjælp af automatisk margin.
+*/
+img {
+    margin: auto;
+}
+
+/* 
+Stil til h1 overskrifter. Bruger skrifttypen "League Gothic", sætter tekstfarven til en lys hvid/pink nuance, centrerer teksten og giver den en stor skriftstørrelse og lette bogstaver.
+*/
+h1 {
+    font-family: "League Gothic", sans-serif;
+    color: #fff9fb;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+/* 
+Stil til h2 overskrifter. Bruger skrifttypen "Pirata One", sætter tekstfarven til en rød nuance og centrerer teksten med en lidt mindre skriftstørrelse end h1.
+*/
+h2 {
+    font-family: "Pirata One", sans-serif;
+    color: #e00a4c;
+    text-align: center;
+    font-size: 65px;
+}
+
+/* 
+Stil til h3 overskrifter. Bruger skrifttypen "Style Script", sætter tekstfarven til en lys hvid/pink nuance, centrerer teksten og giver den en mindre skriftstørrelse end h2.
+*/
+h3 {
+    font-family: "Style Script", sans-serif;
+    color: #fff9fb;
+    text-align: center;
+    font-size: 30px;
+}
+
+.h4 {
+    font-family: "League Gothic", sans-serif;
+    color: #fff9fb;
+    text-align: center;
+    font-size: 55px;
+  }
+
+
+/* 
+Stil til p elementer. Bruger skrifttypen "League Spartan", sætter tekstfarven til en lys hvid/pink nuance og giver teksten en let vægt og linjehøjde for bedre læsbarhed.
+*/
+p {
+    font-family: "League Spartan", sans-serif;
+    color: #fff9fb;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+/* 
+Stil til elementer med klassen tekst3. Bruger samme skrifttype som p elementer, centrerer teksten og tilføjer margin-top.
+*/
+.tekst3 {
+    font-family: "League Spartan", sans-serif;
+    color: #fff9fb;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+/* 
+Stil til Policies klasse. Justerer tekst til venstre og tilføjer padding til højre.
+*/
+.Policies {
+    text-align: left;
+    padding-right: 2px;
+}
+
+/* 
+Stil til ul elementer med ul klasse. Sætter tekstfarve til hvid/pink nuance og justerer tekst til ven*/
+
+.ul {
+    color: #fff9fb;
+    text-align: left;
+    padding-right: 2px;
+}
+
+/* 
+Stil til elementer med klassen streg1. Tilføjer afrundede hjørner, en tynd ramme og padding, centrerer indholdet og giver fast bredde.
+*/
+.streg1 {
+    border-radius: 25px;
+    border: 0.1px;
+    border-style: solid;
+    border-color: #fff9fb;
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    width: 290px;
+    text-align: center;
+    margin: auto;
+}
+
+/* 
+Samme stil som streg1, men tilføjer margin-bottom.
+*/
+.streg2 {
+    border-radius: 25px;
+    border: 0.1px;
+    border-style: solid;
+    border-color: #fff9fb;
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    width: 290px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* 
+Samme stil som streg2, men tilføjer margin-bottom.
+*/
+.streg3 {
+    border-radius: 25px;
+    border: 0.1px;
+    border-style: solid;
+    border-color: #fff9fb;
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    width: 290px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* 
+Stil til stregrod elementer. Tilføjer en rød ramme og fast højde og bredde.
+*/
+.stregrod {
+    border-style: solid;
+    border-color: #e00a4c;
+    height: 0px;
+    width: 344px;
+}
+
+/* 
+Stil til streghvid elementer. Tilføjer en hvid ramme, fast højde og bredde og margin-bottom.
+*/
+.streghvid {
+    border-style: solid;
+    border-color: #fff9fb;
+    height: 0px;
+    width: 344px;
+    margin-bottom: 20px;
+}
+
+/* 
+Stil til hellothere elementer. Tilføjer padding-top og centrerer teksten.
+*/
+.hellothere {
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* 
+Stil til knap1 elementer. Tilføjer padding, fast bredde, margin-bottom, afrundede hjørner, rød baggrundsfarve og hvid tekstfarve samt ramme og skrifttype.
+*/
+.knap1 {
+    padding: 20px;
+    width: 344px;
+    margin-bottom: 20px;
+    border-radius: 35px;
+    background-color: #e00a4c;
+    color: #fff9fb;
+    border: 5px;
+    border-style: solid;
+    border-color: #e00a4c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+/* 
+Stil til knap2 elementer. Tilføjer samme stil som knap1, men med sort baggrundsfarve og hvid ramme.
+*/
+.knap2 {
+    padding: 20px;
+    width: 344px;
+    border-radius: 35px;
+    color: #fff9fb;
+    background-color: #1a1a1a;
+    border: 5px;
+    border-style: solid;
+    border-color: #fff9fb;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+/* 
+Stil til accordion elementer. Tilføjer baggrundsfarve, cursor, bredde, tekstjustering, outline, transition, tekstfarve, skriftstørrelse og stil samt display-egenskaber.
+*/
+.accordion {
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Lato';
+    border: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+/* 
+Tilføjer baggrundsfarve ved hover og når aktiv.
+*/
+.active, .accordion:hover {
+    background-color: #e00a4c;
+}
+
+/* 
+Stil til panel elementer. Tilføjer padding, baggrundsfarve, maksimal højde og transition.
+*/
+.panel {
+    padding: 0 18px;
+    background-color: rgba(255, 255, 255, 0);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* 
+Tilføjer plus tegn ved accordion elementer.
+*/
+.accordion span:after {
+    content: '\02795'; /* Unicode tegn for "plus" tegn (+) */
+    font-size: 18px;
+    font-family: 'Lato';
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 30%;
+}
+
+/* 
+Ændrer til minus tegn når accordion elementer er aktive.
+*/
+.accordion.active span:after {
+    content: "\2796"; /* Unicode tegn for "minus" tegn (-) */
+}
+
+/* 
+Medie forespørgsel for skærme op til 750px bredde. Ændrer grid kolonner for overskrift1.
+*/
+@media (max-width: 750px) {
+    .overskrift1 {
+        grid-column: 1 / 4;
+    }
+}
+
+/* 
+Stil til grid layout med grid_1-1 klasse. Definerer kolonner og mellemrum.
+*/
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 10px;
+}
+
+/* 
+Stil til kolonner i grid layout.
+*/
+.col {
+    grid-column: 2 / 3;
+}
+
+.col1 {
+    grid-column: 2 / 3;
+}
+
+
