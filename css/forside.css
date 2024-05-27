@@ -48,6 +48,7 @@
   color: #fff9fb;
   font-size: 30px;
   padding: 20px;
+  margin: auto;
 }
 
 #video_placeholder {
@@ -79,6 +80,7 @@
   font-size: 25px;
   width: 344px;
   margin-bottom: 20px;
+  margin: auto;
   border-radius: 35px;
   background-color: #e00a4c;
   color: #fff9fb;
@@ -87,6 +89,7 @@
   border-color: #e00a4c;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  margin-left: 20%;
 
   align-self: center;
 }
