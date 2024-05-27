@@ -1,0 +1,137 @@
+.col {
+  grid-column: 2 / 3;
+}
+
+.container {
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  align-self: center;
+}
+
+#streg_index {
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  width: 290px;
+  text-align: center;
+  margin: auto;
+}
+
+.reviews {
+  padding: 20px;
+  width: 344px;
+  border-radius: 35px;
+  color: #1a1a1a;
+  background-color: #fff9fb;
+  border: 5px;
+  border-style: solid;
+  border-color: #fff9fb;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+#index {
+  font-family: league spartan;
+  color: #fff9fb;
+  font-size: 30px;
+}
+
+.h2 {
+  font-family: league spartan;
+  color: #fff9fb;
+  font-size: 30px;
+}
+
+#reviews {
+  font-family: league spartan;
+  color: #fff9fb;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#video_placeholder {
+  border-radius: 25px;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#video_placeholder img {
+  height: 100px;
+  width: 100px;
+}
+
+#portfolio {
+  border-radius: 25px;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#portfolio img {
+  height: 100px;
+  width: 100px;
+}
+
+.knap_forside {
+  padding: 20px;
+  font-size: 25px;
+  width: 344px;
+  margin-bottom: 20px;
+  border-radius: 35px;
+  background-color: #e00a4c;
+  color: #fff9fb;
+  border: 5px;
+  border-style: solid;
+  border-color: #e00a4c;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+
+  align-self: center;
+}
+
+.knap_forside_2 {
+  padding: 20px;
+  width: 344px;
+  border-radius: 35px;
+  color: #fff9fb;
+  background-color: #1a1a1a;
+  border: 5px;
+  border-style: solid;
+  border-color: #fff9fb;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  background-image: url("/lefixtattoo/img/hero_image.webp");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
