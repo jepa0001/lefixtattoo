@@ -143,19 +143,4 @@ p {
   font-weight: 700;
 }
 
-@media (max-width: 750px) {
-  .overskrift1 {
-    grid-column: 1 / 4;
-  }
-}
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  gap: 10px;
-}
-.col {
-  grid-column: 2 / 3;
-}
-.col1 {
-  grid-column: 2 / 3;
-}
+

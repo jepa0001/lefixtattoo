@@ -1,0 +1,17 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: var(--space-xxl);
+}
+
+
+img{
+    border-radius: 10px;
+    transition-duration: .4s;
+}
+
+img:hover{
+     scale: 1.075;
+}

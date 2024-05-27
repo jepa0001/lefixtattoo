@@ -1,0 +1,108 @@
+
+/* ------ reset margins -------*/
+*{
+    margin: 0;
+}
+
+/* -------- variables ------- */
+html {
+    --primary: #E00A4C;
+    --accent: #2A2A5A;
+    --secondary: #ffffff;
+    --tertiary: #1a1a1a;
+  
+    --space-xxs: 0.25rem;
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    --space-xxl: 6rem;
+  }
+
+/* -------- site background color ------- */
+body {
+    background-color: var(--tertiary);
+}
+
+/* -------- text formatting (mobile) ------- */
+  h1 {
+    font-family: "League Gothic", sans-serif;
+    color: var(--secondary);
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-bottom: #E00A4C solid;
+    max-width: 344px;
+    margin: auto;
+
+  }
+  
+  h2 {
+    font-family: "League Spartan", sans-serif;
+    color: var(--secondary);
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-family: "League Spartan", sans-serif;
+    color: var(--secondary);
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  p {
+    font-family: "League Spartan", sans-serif;
+    color: var(--secondary);
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  small {
+    font-family: "League Spartan", sans-serif;
+    color: var(--secondary);
+    text-align: center;
+    font-size: 14px;
+  }
+
+  a, a:visited{
+    color: #ffffff;
+  }
+
+/* -------- button formatting (mobile) ------- */
+.button1{}
+.button2 {
+    margin: 3rem auto 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open sans", sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--secondary);
+    background-color: var(--primary);
+    border-radius: 50px;
+    width: 344px;
+    height: 54px;
+    transition: .4s;
+}
+
+.button1:hover, .button2:hover{
+    scale: 1.1;
+}
+
+.button1 a, .button2 a{
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+/* -------- section formatting (mobile) ------- */
+section {
+    margin: var(--space-xxl);
+}
+
+
