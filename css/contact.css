@@ -1,158 +1,216 @@
-
 /* Styling for overskrifter med klassenavnet .h4c */
-.h4c {
-    font-family: "League Gothic", sans-serif;
-    color: #fff9fb;
-    text-align: left;
-    font-size: 40px;
+
+.h1c1 {
+  margin-bottom: -0%;
 }
 
 .h4c {
-    margin-bottom: -50px; 
+  font-family: "League Gothic", sans-serif;
+  color: #fff9fb;
+  text-align: left;
+  font-size: 40px;
+}
+
+.h4c {
+  margin-bottom: -50px;
+  margin-left: 5%;
 }
 
 /* Styling for afsnit med klassenavnet .pc */
 .pc {
-    margin-top: 60px; /* Adjust as needed */
-    font-family: "League Spartan", sans-serif;
-    color: #fff9fb;
-    font-weight: 100;
-    line-height: 1.5;
+  margin-top: 60px; /* Adjust as needed */
+  font-family: "League Spartan", sans-serif;
+  color: #fff9fb;
+  font-weight: 100;
+  line-height: 1.5;
+  margin-left: 5%;
 }
 /* Styling for overskrifter med klassenavnet .h2c */
 .h2c {
-    font-family: "League Gothic", sans-serif;
-    color: #fff9fb;
-    text-align: left;
-    font-size: 40px;
+  font-family: "League Gothic", sans-serif;
+  color: #fff9fb;
+  text-align: left;
+  font-size: 40px;
 }
 
 /* Kontaktformularens container */
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
 }
 /* Styling for kontaktformular */
 .contact-form {
-    background: rgba(255, 255, 255, 0); /* White with transparency */
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    padding-bottom: 20%;
-    border: 0.1px solid #fff9fb;
-    padding: 30px;
-    padding-top: 0px;
-    padding-bottom: 21px;
-    width: 290px;
-    text-align: center;
-    margin: auto;
+  background: rgba(255, 255, 255, 0); /* White with transparency */
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding-bottom: 20%;
+  border: 0.1px solid #fff9fb;
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 21px;
+  width: 290px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
 }
 /* Styling for overskrift i kontaktformular */
 .contact-form h2 {
-    font-family: "League Gothic", sans-serif;
-    margin-bottom: 20px;
-    font-size: 54px;
-    color: #ffffff;
+  font-family: "League Gothic", sans-serif;
+  margin-bottom: 20px;
+  font-size: 54px;
+  color: #ffffff;
 }
 
 /* Styling for inputfelter og tekstområder i kontaktformular */
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-    color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 /* Styling for knap i kontaktformular */
 
 .contact-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #e00a4c;
-    border: none;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #e00a4c;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* Styling for knap ved hover i kontaktformular */
 
 .contact-form button:hover {
-    background-color: #e00a4e82;
+  background-color: #e00a4e82;
 }
 
 /* Styling for kontaktformular */
 
 #name {
-    background-color: #f0f0f000;
+  background-color: #f0f0f000;
 }
 
 #phone {
-    background-color: #cccccc00;
+  background-color: #cccccc00;
 }
 
 #email {
-    background-color: #cccccc00;
+  background-color: #cccccc00;
 }
 
 #message {
-    background-color: #cccccc00;
+  background-color: #cccccc00;
 }
 
 #text {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 /* Styling for formgruppe i kontaktformular */
 
 .form-group {
-    position: relative;
-    margin-bottom: 15px;
+  position: relative;
+  margin-bottom: 15px;
 }
 
 /* Styling for inputfelter og tekstområder i formgruppe i kontaktformular */
 
 .form-group input,
 .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-    background: transparent;
-    position: relative;
-    z-index: 1;
-    color: #ffffff; 
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
 }
 
 .form-group label {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 0 5px;
-    transition: 0.3s;
-    pointer-events: none;
-    font-size: 16px;
-    color: #ffffff; /* Label text color */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0 5px;
+  transition: 0.3s;
+  pointer-events: none;
+  font-size: 16px;
+  color: #ffffff; /* Label text color */
 }
 
 .form-group input:not(:placeholder-shown) + label,
 .form-group textarea:not(:placeholder-shown) + label {
-    opacity: 0; /* Make label disappear only when input has content */
+  opacity: 0; /* Make label disappear only when input has content */
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media (min-width: 550px) {
+  .grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Del containeren i tre lige store kolonner */
+    gap: 20px; /* Tilføj lidt afstand mellem grid-items */
+    /* margin-left: 10%; */
+    text-align: center;
+  }
+
+  .h4c {
+    text-align: center;
+  }
+  .stregrod {
+    margin: auto;
+    border-style: solid;
+    border-color: #e00a4c;
+    height: 0px;
+    width: 444px;
+  }
+
+  .container {
+    /* margin-left: 5%; */
+    margin-top: 10%;
+    width: 100%;
+    max-width: none; /* Fjern maksimumsbredde */
+  }
+
+  .contact-form {
+    width: 100%; /* Bruk 100% av foreldrekontainerens bredde */
+    max-width: 600px; /* Behold en maksimumsbredde hvis du vil begrense bredden på stor skjerm */
+    margin: auto; /* Sentrer formen horisontalt */
+  }
 }
