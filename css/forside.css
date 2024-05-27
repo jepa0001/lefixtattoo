@@ -115,7 +115,7 @@ html {
 
 /* The hero image */
 .hero-image {
-  background-image: url("/lefixtattoo/img/hero_image.webp");
+  background-image: url("/img/hero_image.webp");
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
