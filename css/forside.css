@@ -1,5 +1,135 @@
+@font-face {
+  font-family: Gothic;
+  src: url("/fonts/DoDavidGothicRegular-7BEz4.woff") format("woff");
+}
+
+/*  ---------- hero section ---------- */
+.hero{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/img/hero_image.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.overlay{
+  background-color: #1a1a1a;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  display: none;
+  pointer-events: none;
+  
+}
+
+.hero-text h1{
+  font-family: Gothic;
+  font-size: 6rem;
+  text-transform: none;
+  font-weight: normal;
+  border-bottom: none;
+  margin: auto;
+}
+
+/*  ----------  sections ---------- */
+.welcome, .take-a-look, .reviews{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 2rem auto 2rem auto;
+}
+
+.take-a-look-img{
+  order: -1;
+}
+
+p{
+  max-width: 65ch;
+  text-align: center;
+}
+
+.underline{
+  border-top: #e00a4c solid 3px;
+  max-width: 50px;
+  align-items: center;
+  margin: 1rem auto 1rem auto;
+}
+
+.divider{
+  border-bottom: #fff solid;
+  max-width: 344px;
+  margin: auto;
+}
+
+/* ---------- Desktop --------- */
+@media (min-width: 800px) {
+    main{
+      max-width: 1232px;
+      margin: auto;
+    }
+    .welcome, .take-a-look{
+      justify-content: space-evenly;
+    }
+    .hero-text h1{
+      font-size: 12rem;
+      max-width: 800px;
+    }
+    .hero-buttons{
+      display: flex;
+      gap: 35px;
+    }
+    .divider{
+      max-width: 1032px;
+      border-bottom: #ffffff solid 1.5px;
+    }
+    .welcome-text h2, p{
+      text-align: left;
+    }
+    .welcome-text .button2, .underline{
+      margin-left: 0;
+    }
+    .take-a-look h2, p{
+      text-align: left;
+    }
+    .take-a-look .button2, .underline{
+      margin-left: 0;
+    }
+    p{
+      max-width:25ch;
+    }
+
+
+    
+}
+
+
+
+
+
+/* ---------- ARCHIVED --------- */
 .col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column: 2 / 3;
+}
+
+sv
+
+.col svg{
+  display: flex;
+  justify-content: center;
+  
 }
 
 .container {
@@ -31,17 +161,17 @@
   font-weight: 700;
 }
 
-#index {
+/* #index {
   font-family: league spartan;
   color: #fff9fb;
   font-size: 30px;
-}
+} */
 
-.h2 {
+/* .h2 {
   font-family: league spartan;
   color: #fff9fb;
   font-size: 30px;
-}
+} */
 
 #reviews {
   font-family: league spartan;
@@ -114,27 +244,29 @@ html {
 }
 
 /* The hero image */
-.hero-image {
-  background-image: url("/img/hero_image.webp");
+/* .hero-image {
+  background-image: url("/lefixtattoo/img/hero_image.webp");
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 100%; */
 
   /* Position and center the image to scale nicely on all screens */
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+  display: flex;
+  justify-content: center;
+} */
 
 /* Place text in the middle of the image */
-.hero-text {
+/* .hero-text {
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-}
+} */
