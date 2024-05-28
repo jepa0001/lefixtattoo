@@ -1,4 +1,16 @@
+footer p{
+    font-size: 12pt;
+    margin:auto;
+    text-align: center;
+    max-width: 70ch;
+}
 
+.copyright p{
+    font-family: "open sans", sans-serif;
+    font-size: 10pt;
+}
+
+/* //////////////////////////// */
 
 .footer {
     background-color: black;
@@ -14,8 +26,6 @@
     margin: 0 auto;
     padding: 0 20px;
 }
-
-
 
 
 /******* menu ****/
