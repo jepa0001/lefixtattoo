@@ -1,7 +1,7 @@
 /* Styling for overskrifter med klassenavnet .h4c */
 
 .h1c1 {
-  margin-bottom: -0%;
+  margin-bottom: 10%;
 }
 
 .h4c {
@@ -13,7 +13,7 @@
 
 .h4c {
   margin-bottom: -50px;
-  margin-left: 5%;
+  text-align: center;
 }
 
 /* Styling for afsnit med klassenavnet .pc */
@@ -23,7 +23,9 @@
   color: #fff9fb;
   font-weight: 100;
   line-height: 1.5;
-  margin-left: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
 }
 /* Styling for overskrifter med klassenavnet .h2c */
 .h2c {
@@ -193,13 +195,13 @@
   .h4c {
     text-align: center;
   }
-  .stregrod {
+  /* .stregrod {
     margin: auto;
     border-style: solid;
     border-color: #e00a4c;
     height: 0px;
     width: 444px;
-  }
+  } */
 
   .container {
     /* margin-left: 5%; */

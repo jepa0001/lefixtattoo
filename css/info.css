@@ -11,23 +11,8 @@ body {
   background-color: #1a1a1a;
 }
 
-/* 
-Centerer billeder horisontalt ved hjælp af automatisk margin.
-*/
-img {
-  margin: auto;
-}
-
-/* 
-Stil til h1 overskrifter. Bruger skrifttypen "League Gothic", sætter tekstfarven til en lys hvid/pink nuance, centrerer teksten og giver den en stor skriftstørrelse og lette bogstaver.
-*/
-.h1c1 {
-  font-family: "League Gothic", sans-serif;
-  color: #fff9fb;
-  text-align: center;
-  font-size: 80px;
-  font-weight: 300;
-  margin-bottom: 0%;
+.stregrod {
+  margin-bottom: 20px;
 }
 
 /* 
@@ -43,14 +28,8 @@ h2 {
 /* 
 Stil til h3 overskrifter. Bruger skrifttypen "Style Script", sætter tekstfarven til en lys hvid/pink nuance, centrerer teksten og giver den en mindre skriftstørrelse end h2.
 */
-h3 {
-  font-family: "Style Script", sans-serif;
-  color: #fff9fb;
-  text-align: center;
-  font-size: 30px;
-}
 
-.h4 {
+.h2 {
   font-family: "League Gothic", sans-serif;
   color: #fff9fb;
   text-align: center;
@@ -67,18 +46,13 @@ p {
   line-height: 1.5;
   width: 100%;
   height: auto;
+  line-height: 1.5;
+  margin-top: 5px;
 }
 
 /* 
 Stil til elementer med klassen tekst3. Bruger samme skrifttype som p elementer, centrerer teksten og tilføjer margin-top.
 */
-.tekst3 {
-  font-family: "League Spartan", sans-serif;
-  color: #fff9fb;
-  text-align: center;
-  margin-top: 20px;
-  font-weight: 100;
-}
 
 /* 
 Stil til Policies klasse. Justerer tekst til venstre og tilføjer padding til højre.
@@ -113,6 +87,7 @@ Stil til elementer med klassen streg1. Tilføjer afrundede hjørner, en tynd ram
   text-align: center;
   margin: auto;
   margin-bottom: 10%;
+  padding: 5%;
 }
 
 /* 
@@ -131,6 +106,7 @@ Samme stil som streg1, men tilføjer margin-bottom.
   text-align: center;
   margin: auto;
   margin-bottom: 30px;
+  padding: 5%;
 }
 
 /* 
@@ -149,6 +125,7 @@ Samme stil som streg2, men tilføjer margin-bottom.
   text-align: center;
   margin: auto;
   margin-bottom: 30px;
+  padding: 5%;
 }
 
 .streg4 {
@@ -164,19 +141,9 @@ Samme stil som streg2, men tilføjer margin-bottom.
   text-align: center;
   margin: auto;
   margin-bottom: 30px;
+  padding: 5%;
 }
 
-/* 
-Stil til stregrod elementer. Tilføjer en rød ramme og fast højde og bredde.
-*/
-.stregrod {
-  margin: auto;
-  border-style: solid;
-  border-color: #e00a4c;
-  height: 0px;
-  width: 444px;
-  margin-bottom: 5%;
-}
 /* 
 Stil til streghvid elementer. Tilføjer en hvid ramme, fast højde og bredde og margin-bottom.
 */
@@ -189,17 +156,10 @@ Stil til streghvid elementer. Tilføjer en hvid ramme, fast højde og bredde og 
 }
 
 /* 
-Stil til hellothere elementer. Tilføjer padding-top og centrerer teksten.
-*/
-.hellothere {
-  padding-top: 30px;
-  text-align: center;
-}
-
-/* 
 Stil til knap1 elementer. Tilføjer padding, fast bredde, margin-bottom, afrundede hjørner, rød baggrundsfarve og hvid tekstfarve samt ramme og skrifttype.
 */
 .knap1 {
+  display: grid;
   padding: 20px;
   width: 344px;
   margin-bottom: 20px;
@@ -211,6 +171,9 @@ Stil til knap1 elementer. Tilføjer padding, fast bredde, margin-bottom, afrunde
   border-color: #e00a4c;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  margin: auto;
+  margin-right: 15%;
+  margin-bottom: 5%;
 }
 
 /* 
@@ -353,15 +316,15 @@ Medie forespørgsel for skærme op til 750px bredde. Ændrer grid kolonner for o
     margin-left: 10%;
   }
   .streg1 {
-    height: 350px;
+    height: 550px;
   }
   .streg2,
   .streg4 {
-    height: 220px;
+    height: 350px;
   }
 
   .streg3 {
-    height: 350px;
+    height: 550px;
   }
 
   .streg4 {
@@ -370,7 +333,8 @@ Medie forespørgsel for skærme op til 750px bredde. Ændrer grid kolonner for o
 
   .col {
     display: block;
-    margin-left: 75%;
+    margin-left: 78%;
+    margin-bottom: 50px;
   }
 
   .col2 {

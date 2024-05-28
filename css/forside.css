@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url("/img/hero_image.webp");
+  background-image: url("/img/hero-test.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,7 +33,7 @@
 
 .hero-text h1{
   font-family: Gothic;
-  font-size: 6rem;
+  font-size: 10rem;
   text-transform: none;
   font-weight: normal;
   border-bottom: none;
@@ -116,7 +116,7 @@ p{
 
 
 
-
+/* //////////////////////////////////////////////////// */
 /* ---------- ARCHIVED --------- */
 .col {
   display: grid;

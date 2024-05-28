@@ -5,6 +5,10 @@ header {
     padding: 20px;
     background-color: #03000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "open sans", sans serif;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
   }
   
   .logo img {
@@ -16,7 +20,6 @@ header {
   nav {
     display: flex;
     align-items: center;
-    
   }
   
   .menu {
@@ -63,6 +66,8 @@ header {
   .burger {
     display: none;
   }
+
+  /*-------------- mobile -------------- */
   @media screen and (max-width: 800px) {
     .menu {
       display: none;
@@ -89,10 +94,12 @@ header {
       display: block;
       background-color: #1b1a1a;
       position: absolute;
-      top: 60px;
+      top: 115px;
       left: 0;
       width: 100%;
-      box-shadow: 0 0 10px #e00a4c;
+      margin: auto;
+      text-align: center;
+      /* box-shadow: 0 0 10px #ffffff; */
       z-index: 1;
     }
   
