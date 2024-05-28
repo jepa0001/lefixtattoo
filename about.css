@@ -1,0 +1,307 @@
+body {
+  background-color: #1a1a1a;
+}
+
+img {
+  margin: auto;
+}
+
+h1 {
+  font-family: "League Gothic", sans-serif;
+  color: #fff9fb;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: "Pirata One", sans-serif;
+  color: #e00a4c;
+  text-align: center;
+  font-size: 65px;
+}
+
+h3 {
+  font-family: "Style Script", sans-serif;
+  color: #fff9fb;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  font-family: "League Spartan", sans-serif;
+  color: #fff9fb;
+  font-weight: 100;
+}
+
+.tekst3 {
+  font-family: "League Spartan", sans-serif;
+  color: #fff9fb;
+  margin-top: 20px;
+  font-weight: 100;
+  grid-column: 2 / 4;
+}
+
+.gitte {
+  border-radius: 25px;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 20px;
+  margin: 2rem;
+}
+
+.franz {
+  border-radius: 25px;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 20px;
+  margin: 2rem;
+}
+
+.streg1 {
+  border-radius: 25px;
+  border: 0.1px;
+  border-style: solid;
+  border-color: #fff9fb;
+  padding: 30px;
+  padding-top: 0px;
+  width: 290px;
+  text-align: center;
+  margin: auto;
+}
+
+.streg2 {
+  border-radius: 25px;
+  border: 0.1px;
+  border-style: solid;
+  border-color: #fff9fb;
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  width: 290px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.stregrod {
+  border-style: solid;
+  border-color: #e00a4c;
+  height: 0px;
+}
+
+.streghvid {
+  border-style: solid;
+  border-color: #fff9fb;
+  height: 0px;
+  width: 534px;
+  margin-bottom: 20px;
+}
+
+.hellothere {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.knap1 {
+  padding: 20px;
+  width: 344px;
+  margin-bottom: 20px;
+  border-radius: 35px;
+  background-color: #e00a4c;
+  color: #fff9fb;
+  border: 5px;
+  border-style: solid;
+  border-color: #e00a4c;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.knap2 {
+  padding: 20px;
+  width: 344px;
+  border-radius: 35px;
+  color: #fff9fb;
+  background-color: #1a1a1a;
+  border: 5px;
+  border-style: solid;
+  border-color: #fff9fb;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.col3 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 4;
+}
+
+.colstreg {
+  grid-row: 1 / 2;
+  grid-column: 2 / 4;
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.colstreg2 {
+  grid-row: 6 / 7;
+  grid-column: 2 / 4;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.stregrod {
+  border-style: solid;
+  border-color: #e00a4c;
+  height: 0px;
+  width: 534px;
+}
+
+.col {
+  grid-column: 2 / 4;
+}
+
+.colhello {
+  grid-column: 2 / 3;
+}
+.col1 {
+  grid-column: 2 / 4;
+}
+
+.colgitte {
+  grid-column: 2 / 3;
+  margin-left: 2.5rem;
+}
+
+.colgitte2 {
+  grid-column: 2 / 3;
+  margin: 2rem;
+  margin-right: 3rem;
+}
+
+.colfranz {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  margin-left: 1.5rem;
+}
+
+.colfranz2 {
+  grid-column: 3 / 4;
+  margin: 2rem;
+}
+
+.col4 {
+  grid-column: 2 / 4;
+}
+
+.colknap1 {
+  grid-column: 2 / 3;
+  grid-row: 8 / 9;
+  margin-left: 2rem;
+}
+.colknap2 {
+  grid-column: 3 / 4;
+  grid-row: 8 / 9;
+  margin-left: 2rem;
+}
+
+/*-------------------------------------*/
+
+@media (max-width: 750px) {
+  .overskrift1 {
+    grid-column: 1 / 4;
+  }
+
+  .col3 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+
+  .stregrod {
+    border-style: solid;
+    border-color: #e00a4c;
+    height: 0px;
+    width: 344px;
+  }
+  .streghvid {
+    border-style: solid;
+    border-color: #fff9fb;
+    height: 0px;
+    width: 344px;
+    margin-bottom: 20px;
+  }
+
+  .colstreg {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  .colstreg2 {
+    grid-row: 8 / 9;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  .colfranz {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+  }
+
+  .colfranz2 {
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+  }
+
+  .colgitte {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
+
+  .colgitte2 {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 10px;
+  }
+  .col {
+    grid-column: 2 / 3;
+    grid-row: 9 / 10;
+  }
+  .col1 {
+    grid-column: 2 / 3;
+  }
+  .franz {
+    border-radius: 25px;
+    display: block;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+
+  .col4 {
+    grid-column: 2 / 3;
+  }
+
+  .colknap1 {
+    grid-column: 2 / 3;
+    grid-row: 10 / 11;
+    margin-left: 2.6rem;
+  }
+  .colknap2 {
+    grid-column: 2 / 3;
+    grid-row: 11 / 12;
+    margin-left: 2.6rem;
+  }
+}
