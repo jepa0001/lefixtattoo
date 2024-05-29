@@ -73,6 +73,12 @@ p {
   margin: auto;
 }
 
+.lottie {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 60px;
+}
 /* ---------- Desktop --------- */
 @media (min-width: 800px) {
   main {
@@ -85,7 +91,11 @@ p {
   }
   .hero-text h1 {
     font-size: 12rem;
+<<<<<<< HEAD
     max-width: 800px;
+=======
+    max-width: 1000px;
+>>>>>>> 19aa2776b26ae49c99269cdfa9fe5b541bd35d2f
   }
   .hero-buttons {
     display: flex;
