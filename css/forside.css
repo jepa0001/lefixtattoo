@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url("/img/hero-test.jpg");
+  background-image: url("/img/hero-test.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,7 +91,11 @@ p {
   }
   .hero-text h1 {
     font-size: 12rem;
+<<<<<<< HEAD
+    max-width: 800px;
+=======
     max-width: 1000px;
+>>>>>>> 19aa2776b26ae49c99269cdfa9fe5b541bd35d2f
   }
   .hero-buttons {
     display: flex;
