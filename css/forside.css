@@ -4,7 +4,7 @@
 }
 
 /*  ---------- hero section ---------- */
-.hero{
+.hero {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -17,7 +17,7 @@
   height: 100%;
 }
 
-.overlay{
+.overlay {
   background-color: #1a1a1a;
   position: fixed;
   width: 100%;
@@ -28,10 +28,9 @@
   bottom: 0; */
   display: none;
   pointer-events: none;
-  
 }
 
-.hero-text h1{
+.hero-text h1 {
   font-family: Gothic;
   font-size: 10rem;
   text-transform: none;
@@ -41,7 +40,9 @@
 }
 
 /*  ----------  sections ---------- */
-.welcome, .take-a-look, .reviews{
+.welcome,
+.take-a-look,
+.reviews {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -50,23 +51,23 @@
   margin: 2rem auto 2rem auto;
 }
 
-.take-a-look-img{
+.take-a-look-img {
   order: -1;
 }
 
-p{
+p {
   max-width: 65ch;
   text-align: center;
 }
 
-.underline{
+.underline {
   border-top: #e00a4c solid 3px;
   max-width: 50px;
   align-items: center;
   margin: 1rem auto 1rem auto;
 }
 
-.divider{
+.divider {
   border-bottom: #fff solid;
   max-width: 344px;
   margin: auto;
@@ -74,47 +75,46 @@ p{
 
 /* ---------- Desktop --------- */
 @media (min-width: 800px) {
-    main{
-      max-width: 1232px;
-      margin: auto;
-    }
-    .welcome, .take-a-look{
-      justify-content: space-evenly;
-    }
-    .hero-text h1{
-      font-size: 12rem;
-      max-width: 800px;
-    }
-    .hero-buttons{
-      display: flex;
-      gap: 35px;
-    }
-    .divider{
-      max-width: 1032px;
-      border-bottom: #ffffff solid 1.5px;
-    }
-    .welcome-text h2, p{
-      text-align: left;
-    }
-    .welcome-text .button2, .underline{
-      margin-left: 0;
-    }
-    .take-a-look h2, p{
-      text-align: left;
-    }
-    .take-a-look .button2, .underline{
-      margin-left: 0;
-    }
-    p{
-      max-width:25ch;
-    }
-
-
-    
+  main {
+    max-width: 1232px;
+    margin: auto;
+  }
+  .welcome,
+  .take-a-look {
+    justify-content: space-evenly;
+  }
+  .hero-text h1 {
+    font-size: 12rem;
+    max-width: 1000px;
+  }
+  .hero-buttons {
+    display: flex;
+    gap: 35px;
+  }
+  .divider {
+    max-width: 1032px;
+    border-bottom: #ffffff solid 1.5px;
+  }
+  .welcome-text h2,
+  p {
+    text-align: left;
+  }
+  .welcome-text .button2,
+  .underline {
+    margin-left: 0;
+  }
+  .take-a-look h2,
+  p {
+    text-align: left;
+  }
+  .take-a-look .button2,
+  .underline {
+    margin-left: 0;
+  }
+  p {
+    max-width: 25ch;
+  }
 }
-
-
-
 
 /* //////////////////////////////////////////////////// */
 /* ---------- ARCHIVED --------- */
@@ -124,12 +124,9 @@ p{
   grid-column: 2 / 3;
 }
 
-sv
-
-.col svg{
+sv .col svg {
   display: flex;
   justify-content: center;
-  
 }
 
 .container {
@@ -252,8 +249,8 @@ html {
   background-size: cover;
   height: 100%; */
 
-  /* Position and center the image to scale nicely on all screens */
-  /* background-position: center;
+/* Position and center the image to scale nicely on all screens */
+/* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
