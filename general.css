@@ -74,7 +74,7 @@ a:visited {
   color: #ffffff;
 }
 .button1 a:visited {
-  color: #1a1a1a;
+  text-decoration: none;
 }
 
 /* -------- button formatting (mobile) ------- */
@@ -88,8 +88,9 @@ a:visited {
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
-  color: var(--tertiary);
-  background-color: var(--secondary);
+  color: #ffffff;
+  
+  border: #ffffff 3px solid;
   border-radius: 50px;
   width: 344px;
   height: 54px;
@@ -115,7 +116,15 @@ a:visited {
   text-decoration: none;
 }
 
-.button1:hover,
+.button1:hover{
+  scale: 1.1;
+  color: #1a1a1a;
+  background-color: #ffffff;
+}
+.button1 a:hover{
+  color: #1a1a1a;
+}
+
 .button2:hover {
   scale: 1.1;
 }
