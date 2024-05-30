@@ -1,0 +1,264 @@
+.navbar {
+  position: fixed;
+}
+
+.iframe1 {
+  border: 0ch;
+}
+@font-face {
+  font-family: Gothic;
+  src: url("/fonts/DoDavidGothicRegular-7BEz4.woff") format("woff");
+}
+
+/*  ---------- hero section ---------- */
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/lefixtattoo/img/webp/hero_image_nyt.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.overlay {
+  background-color: #1a1a1a;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  display: none;
+  pointer-events: none;
+}
+
+.hero-text h1 {
+  font-family: Gothic;
+  font-size: 10rem;
+  text-transform: none;
+  font-weight: normal;
+  border-bottom: none;
+  margin: auto;
+  font-size: 12rem;
+  max-width: 800px;
+  max-width: 1000px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 35px;
+}
+
+/*  ----------  sections ---------- */
+.welcome,
+.take-a-look,
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 2rem auto 2rem auto;
+}
+
+.take-a-look-img {
+  order: -1;
+}
+
+p {
+  max-width: 65ch;
+  text-align: center;
+}
+
+.underline {
+  border-top: #e00a4c solid 3px;
+  max-width: 50px;
+  align-items: center;
+  margin: 1rem auto 1rem auto;
+}
+
+.divider {
+  border-bottom: #fff solid;
+  max-width: 344px;
+  margin: auto;
+}
+
+.lottie {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 60px;
+}
+/* ---------- Desktop --------- */
+
+@media (min-width: 800px) {
+  main {
+    max-width: 1232px;
+    margin: auto;
+  }
+  .welcome,
+  .take-a-look {
+    justify-content: space-evenly;
+  }
+  .hero-text h1 {
+    font-size: 12rem;
+    max-width: 800px;
+    max-width: 1000px;
+  }
+  .hero-buttons {
+    display: flex;
+    gap: 35px;
+  }
+  .divider {
+    max-width: 1032px;
+    border-bottom: #ffffff solid 1.5px;
+  }
+  .welcome-text h2,
+  p {
+    text-align: left;
+  }
+  .welcome-text .button2,
+  .underline {
+    margin-left: 0;
+  }
+  .take-a-look h2,
+  p {
+    text-align: left;
+  }
+  .take-a-look .button2,
+  .underline {
+    margin-left: 0;
+  }
+  p {
+    max-width: 25ch;
+  }
+}
+
+/* //////////////////////////////////////////////////// */
+/* ---------- ARCHIVED --------- */
+.col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 2 / 3;
+}
+
+sv .col svg {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  align-self: center;
+}
+
+#streg_index {
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  width: 290px;
+  text-align: center;
+  margin: auto;
+}
+
+.reviews {
+  padding: 20px;
+  width: 344px;
+  border-radius: 35px;
+  color: #1a1a1a;
+  background-color: #fff9fb;
+  border: 5px;
+  border-style: solid;
+  border-color: #fff9fb;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+/* #index {
+  font-family: league spartan;
+  color: #fff9fb;
+  font-size: 30px;
+} */
+
+/* .h2 {
+  font-family: league spartan;
+  color: #fff9fb;
+  font-size: 30px;
+} */
+
+#reviews {
+  font-family: league spartan;
+  color: #fff9fb;
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
+}
+
+#video_placeholder {
+  border-radius: 25px;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#video_placeholder img {
+  height: 100px;
+  width: 100px;
+}
+
+#portfolio {
+  border-radius: 25px;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#portfolio img {
+  height: 100px;
+  width: 100px;
+}
+
+.knap_forside {
+  padding: 20px;
+  font-size: 25px;
+  width: 344px;
+  margin-bottom: 20px;
+  margin: auto;
+  border-radius: 35px;
+  background-color: #e00a4c;
+  color: #fff9fb;
+  border: 5px;
+  border-style: solid;
+  border-color: #e00a4c;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-left: 20%;
+
+  align-self: center;
+}
+
+.knap_forside_2 {
+  padding: 20px;
+  width: 344px;
+  border-radius: 35px;
+  color: #fff9fb;
+  background-color: #1a1a1a;
+  border: 5px;
+  border-style: solid;
+  border-color: #fff9fb;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+body,
+html {
+  height: 100%;
+}
